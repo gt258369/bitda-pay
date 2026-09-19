@@ -181,8 +181,8 @@ public class SignUtil {
         "orderSn": "M202601010003",
         "address": "TXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "signature": "55B55B966E0006AA8F5F5182E79FE559",
-        "cashier-en": "https://bitdapay.com/apps/cashier/en/M202601010003",
-        "cashier-zh": "https://bitdapay.com/apps/cashier/zh/M202601010003",
+        "cashier-en": "https://域名/apps/cashier/en/M202601010003",
+        "cashier-zh": "https://域名/apps/cashier/zh/M202601010003",
         "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAAByklEQVR42u2aQY7CMAxFXbHoskfoUThaORpHmSN0yQLhcWwnNQOVaMxmpJ8FqprXjW19/zgQf7JWAgbsP2M/ZOssD6cH8eXMfNMH3wCWwiaN9EWxGPvCMz+AJbFbCbVg8jAwLVei8W5vLC/AvoLJ7iDBp9mCD+yrmJW2iIn8Kg/sK1jVkInvrtWWjh2pAXYIax1wssbXHnYaJbAjWLBpY5UOleg9mwfsCCYvZbdJx1bkfJ3XmCxgPVgJPpuvMEHmYo9dVYrlAJbDiiv2LJhqTK0DWrUDy2CjKUWzx17b0gFXYFmsGAzrd9r4aGEXk4VjkQPrxVQxRJDdHjvvHzKwFGbS4QMf5T0dVEdAwBJYtRPuNFQ6zFeoegPLYfWkTKR8Cf5aP7RWCCyBBQ2xkv4r2sAy2FMW1L7N6uhs8hPPzsD6MB3vlA54r/4tOg1gGSyendl2V0+H5OXtaALY51hbJialyM1ybPICrB9rc8t4yjvVCdvrWBjYMSxM3a3xzX5kfjkDAuvBnq7k3L81Ddm5uQN2FKtnDfbLo9IB32QBWCfW5payBrYshMEasD4s3Hg2/1Zb4eZDgPVhzzeerbY9CwOwFIb/NAIDJtgvO1FZBIFSL7AAAAAASUVORK5CYII=",
         "status": 0,
         "time_out": 1753358299
@@ -236,8 +236,8 @@ public class SignUtil {
         "orderSn": "M202601010003",
         "address": "TXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "signature": "55B55B966E0006AA8F5F5182E79FE559",
-        "cashier-en": "https://bitdapay.com/apps/cashier/en/M202601010003",
-        "cashier-zh": "https://bitdapay.com/apps/cashier/zh/M202601010003",
+        "cashier-en": "https://域名/apps/cashier/en/M202601010003",
+        "cashier-zh": "https://域名/apps/cashier/zh/M202601010003",
         "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAAByklEQVR42u2aQY7CMAxFXbHoskfoUThaORpHmSN0yQLhcWwnNQOVaMxmpJ8FqprXjW19/zgQf7JWAgbsP2M/ZOssD6cH8eXMfNMH3wCWwiaN9EWxGPvCMz+AJbFbCbVg8jAwLVei8W5vLC/AvoLJ7iDBp9mCD+yrmJW2iIn8Kg/sK1jVkInvrtWWjh2pAXYIax1wssbXHnYaJbAjWLBpY5UOleg9mwfsCCYvZbdJx1bkfJ3XmCxgPVgJPpuvMEHmYo9dVYrlAJbDiiv2LJhqTK0DWrUDy2CjKUWzx17b0gFXYFmsGAzrd9r4aGEXk4VjkQPrxVQxRJDdHjvvHzKwFGbS4QMf5T0dVEdAwBJYtRPuNFQ6zFeoegPLYfWkTKR8Cf5aP7RWCCyBBQ2xkv4r2sAy2FMW1L7N6uhs8hPPzsD6MB3vlA54r/4tOg1gGSyendl2V0+H5OXtaALY51hbJialyM1ybPICrB9rc8t4yjvVCdvrWBjYMSxM3a3xzX5kfjkDAuvBnq7k3L81Ddm5uQN2FKtnDfbLo9IB32QBWCfW5payBrYshMEasD4s3Hg2/1Zb4eZDgPVhzzeerbY9CwOwFIb/NAIDJtgvO1FZBIFSL7AAAAAASUVORK5CYII=",
         "status": 0,
         "time_out": 1753358299
@@ -409,11 +409,11 @@ public class SignUtil {
 
 | 次数  | 间隔   |
 | --- | ---- |
-| 第1次 | 5秒后   |
-| 第2次 | 10秒后 |
+| 第1次 | 立即   |
+| 第2次 | 20秒后 |
 | 第3次 | 30秒后 |
 | 第4次 | 1分钟后 |
-| 第5次 | 2分钟后 |
+| 第5次 | 5分钟后 |
 
 ---
 
