@@ -155,7 +155,7 @@ public class SignUtil {
 | ------------ | --- | ------ | ------------------- |
 | appid        | 是   | string | 商户ID                |
 | order_sn     | 是   | string | 商户订单号（唯一）           |
-| amount       | 是   | double | 支付金额（USDT）          |
+| pay_money       | 是   | string | 支付金额（CNY）          |
 | chain_type   | 是   | int    | 链类型：1=TRC20，2=ERC20 |
 | notify_url   | 是   | string | 异步通知地址              |
 | username     | 是   | string | 付款用户标识              |
@@ -259,7 +259,7 @@ public class SignUtil {
 | ---------- | --- | ------ | ------------------- |
 | appid      | 是   | string | 商户ID                |
 | order_sn   | 是   | string | 商户订单号（唯一）           |
-| amount     | 是   | string | 代付金额（USDT）          |
+| money     | 是   | string | 代付金额（CNY）          |
 | address    | 是   | string | 收款地址                |
 | chain_type | 是   | int    | 链类型：1=TRC20，2=ERC20 |
 | notify_url | 是   | string | 异步通知地址              |
