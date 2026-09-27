@@ -175,14 +175,14 @@ public class SignUtil {
     "msg": "操作成功",
     "data": {
         "appid": "your_appid",
-        "chain": "TRON",
-        "token": "TRC20",
-        "amount": 100,
-        "orderSn": "M202601010003",
+        "chain_type": "1",
+        "pay_cny": 100,
+        "pay_usdt": 11.83,
+        "order_sn": "M202601010003",
         "address": "TXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "signature": "55B55B966E0006AA8F5F5182E79FE559",
-        "cashier-en": "https://域名/apps/cashier/en/M202601010003",
-        "cashier-zh": "https://域名/apps/cashier/zh/M202601010003",
+        "cashier-en": "https://域名/apps/cashier/en/e2c0fcd7-73fa-495b-a0e2-74d2a1b8bb74",
+        "cashier-zh": "https://域名/apps/cashier/zh/e2c0fcd7-73fa-495b-a0e2-74d2a1b8bb74",
         "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAAByklEQVR42u2aQY7CMAxFXbHoskfoUThaORpHmSN0yQLhcWwnNQOVaMxmpJ8FqprXjW19/zgQf7JWAgbsP2M/ZOssD6cH8eXMfNMH3wCWwiaN9EWxGPvCMz+AJbFbCbVg8jAwLVei8W5vLC/AvoLJ7iDBp9mCD+yrmJW2iIn8Kg/sK1jVkInvrtWWjh2pAXYIax1wssbXHnYaJbAjWLBpY5UOleg9mwfsCCYvZbdJx1bkfJ3XmCxgPVgJPpuvMEHmYo9dVYrlAJbDiiv2LJhqTK0DWrUDy2CjKUWzx17b0gFXYFmsGAzrd9r4aGEXk4VjkQPrxVQxRJDdHjvvHzKwFGbS4QMf5T0dVEdAwBJYtRPuNFQ6zFeoegPLYfWkTKR8Cf5aP7RWCCyBBQ2xkv4r2sAy2FMW1L7N6uhs8hPPzsD6MB3vlA54r/4tOg1gGSyendl2V0+H5OXtaALY51hbJialyM1ybPICrB9rc8t4yjvVCdvrWBjYMSxM3a3xzX5kfjkDAuvBnq7k3L81Ddm5uQN2FKtnDfbLo9IB32QBWCfW5payBrYshMEasD4s3Hg2/1Zb4eZDgPVhzzeerbY9CwOwFIb/NAIDJtgvO1FZBIFSL7AAAAAASUVORK5CYII=",
         "status": 0,
         "time_out": 1753358299
@@ -230,14 +230,14 @@ public class SignUtil {
     "msg": "操作成功",
     "data": {
         "appid": "your_appid",
-        "chain": "TRON",
-        "token": "TRC20",
-        "amount": 100,
-        "orderSn": "M202601010003",
+        "chain_type": "1",
+        "pay_cny": 100,
+        "pay_usdt": 11.83,
+        "order_sn": "M202601010003",
         "address": "TXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
         "signature": "55B55B966E0006AA8F5F5182E79FE559",
-        "cashier-en": "https://域名/apps/cashier/en/M202601010003",
-        "cashier-zh": "https://域名/apps/cashier/zh/M202601010003",
+        "cashier-en": "https://域名/apps/cashier/en/e2c0fcd7-73fa-495b-a0e2-74d2a1b8bb74",
+        "cashier-zh": "https://域名/apps/cashier/zh/e2c0fcd7-73fa-495b-a0e2-74d2a1b8bb74",
         "base64": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQAAAABRBrPYAAAByklEQVR42u2aQY7CMAxFXbHoskfoUThaORpHmSN0yQLhcWwnNQOVaMxmpJ8FqprXjW19/zgQf7JWAgbsP2M/ZOssD6cH8eXMfNMH3wCWwiaN9EWxGPvCMz+AJbFbCbVg8jAwLVei8W5vLC/AvoLJ7iDBp9mCD+yrmJW2iIn8Kg/sK1jVkInvrtWWjh2pAXYIax1wssbXHnYaJbAjWLBpY5UOleg9mwfsCCYvZbdJx1bkfJ3XmCxgPVgJPpuvMEHmYo9dVYrlAJbDiiv2LJhqTK0DWrUDy2CjKUWzx17b0gFXYFmsGAzrd9r4aGEXk4VjkQPrxVQxRJDdHjvvHzKwFGbS4QMf5T0dVEdAwBJYtRPuNFQ6zFeoegPLYfWkTKR8Cf5aP7RWCCyBBQ2xkv4r2sAy2FMW1L7N6uhs8hPPzsD6MB3vlA54r/4tOg1gGSyendl2V0+H5OXtaALY51hbJialyM1ybPICrB9rc8t4yjvVCdvrWBjYMSxM3a3xzX5kfjkDAuvBnq7k3L81Ddm5uQN2FKtnDfbLo9IB32QBWCfW5payBrYshMEasD4s3Hg2/1Zb4eZDgPVhzzeerbY9CwOwFIb/NAIDJtgvO1FZBIFSL7AAAAAASUVORK5CYII=",
         "status": 0,
         "time_out": 1753358299
@@ -275,11 +275,11 @@ public class SignUtil {
     "msg": "操作成功",
     "data": {
         "appid": "your_appid",
-        "chain": "TRON",
-        "token": "TRC20",
-        "amount": 100,
+        "chain_type": "1",
+        "pay_cny": 100,
+        "pay_usdt": 13.23,
+        "order_sn": "M202601010002",
         "address": "TSeu7b3XHuPn6SZcUDZr7HafKdgw7h1Ghk",
-        "orderSn": "M202601010002",
         "signature": "8A76383F7D567BBF098BFE7835346901",
         "status": 0
     }
@@ -327,11 +327,11 @@ public class SignUtil {
     "msg": "操作成功",
     "data": {
         "appid": "your_appid",
-        "chain": "TRON",
-        "token": "TRC20",
-        "amount": 100,
+        "chain_type": "1",
+        "pay_cny": 100,
+        "pay_usdt": 13.23,
+        "order_sn": "M202601010002",
         "address": "TSeu7b3XHuPn6SZcUDZr7HafKdgw7h1Ghk",
-        "orderSn": "M202601010002",
         "signature": "8A76383F7D567BBF098BFE7835346901",
         "success_time": 1735689900,
         "status": 4
@@ -343,7 +343,46 @@ public class SignUtil {
 
 ## 5 基础信息查询
 
-### 5.1 商户余额查询
+### 5.1 商户信息查询
+
+**接口地址：** `/usdt-api/info`
+
+**请求参数：**
+
+| 参数        | 必填  | 类型     | 说明   |
+| --------- | --- | ------ | ---- |
+| appid     | 是   | string | 商户ID |
+| timestamp | 是   | long   | 时间戳  |
+| signature | 是   | string | 签名   |
+
+**响应参数：**
+
+```json
+{
+    "code": 0,
+    "msg": "操作成功",
+    "data": {
+        "address1": "TVXXX",
+        "address2": "0xXXX",
+        "exchange_rate1": 8.450000,
+        "exchange_rate2": 7.560000,
+        "createTime": "2025-07-24 19:58:19"
+    }
+}
+```
+
+**响应字段说明：**
+
+| 字段       | 说明            |
+| -------- | ------------- |
+| address1 | TRC20地址（提现）  |
+| address2 | ERC20地址（提现） |
+| exchange_rate1 | 代收汇率（USD→CNY）  |
+| exchange_rate2 | 代付汇率（USD→CNY）  |
+
+---
+
+### 5.2 商户余额查询
 
 **接口地址：** `/usdt-api/balance`
 
@@ -393,7 +432,9 @@ public class SignUtil {
 | ------------ | ---------- |
 | appid        | 商户ID       |
 | order_sn     | 商户订单号      |
-| amount       | 支付金额       |
+| pay_usdt       | 支付金额（USDT）       |
+| pay_cny       | 支付金额（CNY）       |
+| exchange_rate       | 外币汇率   |
 | status       | 订单状态（1=成功） |
 | success_time | 支付成功时间戳    |
 | attach       | 附加数据       |
@@ -427,7 +468,9 @@ public class SignUtil {
 | ------------ | ---------- |
 | appid        | 商户ID       |
 | order_sn     | 商户订单号      |
-| amount       | 代付金额       |
+| pay_usdt       | 代付金额（USDT）       |
+| pay_cny       | 代付金额（CNY）       |
+| exchange_rate       | 外币汇率   |
 | status       | 订单状态（4=成功） |
 | success_time | 完成时间戳      |
 | signature    | 签名         |
